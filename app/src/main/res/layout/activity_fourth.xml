@@ -12,6 +12,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kembali"
-        tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="491dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218" />
+
+    <Button
+        android:id="@+id/btnShowSnackbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SnackBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kembali"
+        app:layout_constraintVertical_bias="0.339" />
+
+    <Button
+        android:id="@+id/btnShowAlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnShowSnackbar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
