@@ -19,7 +19,6 @@
             android:name=".Pertemuan4.FourthActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -36,6 +35,10 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".Pertemuan3.ThirdActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".tes.tes"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
