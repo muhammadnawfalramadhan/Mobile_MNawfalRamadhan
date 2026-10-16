@@ -10,6 +10,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.nawfal_3tif.Pertemuan4.FourthActivity
 import com.example.nawfal_3tif.databinding.ActivityMainBinding
 import com.example.nawfal_3tif.Pertemuan5.FifthActivity
+import com.example.nawfal_3tif.pertemuan_6.SixthActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -35,14 +36,10 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("age", 25)
 
             startActivity(intent)
-
-            finish()
         }
         binding.btntoFifth.setOnClickListener {
             val intent = Intent(this, FifthActivity::class.java)
             startActivity(intent)
-
-            finish()
         }
         binding.btnLogout.setOnClickListener {
             AlertDialog.Builder(this)
@@ -55,6 +52,11 @@ class MainActivity : AppCompatActivity() {
                     editor.apply()
 
                     dialog.dismiss()
+
+                    //Kembali ke halaman login dan hapus riwayat halaman sebelumnya
+                    val intent = Intent(this, SixthActivity::class.java)
+                    intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                    startActivity(intent)
                     finish()
                 }
                 .setNegativeButton("Tidak") { dialog, _ ->

@@ -1,4 +1,4 @@
-package com.example.nawfal_3tif
+package com.example.nawfal_3tif.pertemuan_6
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,16 +7,18 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.nawfal_3tif.databinding.ActivityAuthBinding
+import com.example.nawfal_3tif.MainActivity
+import com.example.nawfal_3tif.R
+import com.example.nawfal_3tif.databinding.ActivitySixthBinding
 
-class AuthActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityAuthBinding
+class SixthActivity : AppCompatActivity() {
+    private lateinit var binding: ActivitySixthBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        binding = ActivityAuthBinding.inflate(layoutInflater)
+        binding = ActivitySixthBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

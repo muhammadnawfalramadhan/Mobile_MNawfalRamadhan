@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nawfal_3TIF">
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".pertemuan_6.SplashScreenActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AuthActivity"
+            android:name=".pertemuan_6.SixthActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
