@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nawfal_3TIF">
         <activity
-            android:name=".pertemuan_6.SplashScreenActivity"
+            android:name=".Home.pertemuan_6.SplashScreenActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -23,27 +23,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".pertemuan_6.SixthActivity"
+            android:name=".Home.pertemuan_6.SixthActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".Pertemuan2.SecondActivity"
+            android:name=".Home.Pertemuan2.SecondActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".Pertemuan4.FourthActivity"
+            android:name=".Home.Pertemuan4.FourthActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".MainActivity"
+            android:name=".BaseActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".Pertemuan3.ThirdResultActivity"
+            android:name=".Home.Pertemuan3.ThirdResultActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".Pertemuan3.ThirdActivity"
+            android:name=".Home.Pertemuan3.ThirdActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
@@ -51,11 +51,15 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".Pertemuan5.FifthActivity"
+            android:name=".Home.Pertemuan5.FifthActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".Pertemuan5.WebViewActivity"
+            android:name=".Home.Pertemuan7.SeventhActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Home.Pertemuan5.WebViewActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>

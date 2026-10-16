@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DBBDAA"
-    tools:context=".Pertemuan3.ThirdActivity">
+    tools:context=".Home.Pertemuan3.ThirdActivity">
 
     <EditText
         android:id="@+id/editTextPhone"
