@@ -13,6 +13,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nawfal_3TIF">
         <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AuthActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
             android:name=".Pertemuan2.SecondActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
@@ -22,14 +36,8 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:windowSoftInputMode="adjustResize">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".Pertemuan3.ThirdResultActivity"
             android:exported="false"
