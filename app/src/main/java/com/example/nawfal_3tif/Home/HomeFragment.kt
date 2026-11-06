@@ -15,6 +15,7 @@ import com.example.nawfal_3tif.Home.Pertemuan4.FourthActivity
 import com.example.nawfal_3tif.Home.Pertemuan5.FifthActivity
 import com.example.nawfal_3tif.Home.pertemuan_6.SixthActivity
 import com.example.nawfal_3tif.Home.Pertemuan7.SeventhActivity
+import com.example.nawfal_3tif.Home.Pertemuan_10.tenthActivity
 import com.example.nawfal_3tif.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -63,6 +64,10 @@ class HomeFragment : Fragment() {
 
         binding.btnToSeventh.setOnClickListener {
             startActivity(Intent(requireContext(), SeventhActivity::class.java))
+        }
+
+        binding.btnToTenth.setOnClickListener {
+            startActivity(Intent(requireContext(), tenthActivity::class.java))
         }
 
         binding.btnLogout.setOnClickListener {
